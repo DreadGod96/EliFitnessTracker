@@ -1,0 +1,17 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: #0ea5e9;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-2xl px-4 py-2 text-sm font-medium bg-sky-600 hover:bg-sky-500 active:bg-sky-700 disabled:opacity-50;
+}
+.btn-ghost { @apply bg-transparent hover:bg-neutral-800; }
+.card { @apply rounded-2xl bg-neutral-900 p-4 shadow; }
+.input { @apply bg-neutral-800 rounded-xl px-3 py-2 outline-none ring-1 ring-neutral-700 focus:ring-sky-600; }
+.label { @apply text-sm text-neutral-300; }
+.kpi { @apply text-2xl font-semibold; }
